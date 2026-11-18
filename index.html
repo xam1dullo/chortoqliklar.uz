@@ -4,13 +4,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0e5d4f" />
-  <meta name="description" content="Chortoq tumani haqida zamonaviy va ishonchli ma'lumotlar: tarix, tabiat, shifobaxsh maskanlar, iqtisodiy salohiyat va xarita." />
-  <meta name="keywords" content="Chortoq, Chortoq tumani, Namangan, Chortoq sanatoriysi, Chortoq mineral suvi, chortoqliklar" />
-  <meta property="og:title" content="Chortoqliklar — Chortoq tumani haqida" />
-  <meta property="og:description" content="To‘rt adir bag‘ridagi shifo, mehnat va bunyodkorlik maskani." />
+  <meta name="description" content="Chortoq tumani haqida ma'lumotlar: tarix, tabiat, sanatoriy, iqtisodiyot, ziyoratgohlar va xarita." />
+  <meta name="keywords" content="Chortoq, Chortoq tumani, Namangan, Chortoq sanatoriysi, Chortoq mineral suvi, Sulton Uvays Qaroniy, Baliqli ko'l, chortoqliklar" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://chortoqliklar.uz/" />
+  <meta property="og:site_name" content="Chortoqliklar.uz" />
+  <meta property="og:locale" content="uz_UZ" />
+  <meta property="og:url" content="https://chortoqliklar.uz/" />
+  <meta property="og:title" content="Chortoqliklar. Chortoq tumani haqida" />
+  <meta property="og:description" content="Chortoq tumani: tarix, mineral suvlar, bog‘dorchilik, ziyoratgohlar va xarita." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/chortoq-sanatorium.png" />
-  <title>Chortoqliklar — Chortoq tumani</title>
+  <meta property="og:image" content="https://chortoqliklar.uz/assets/chortoq-sanatorium.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chortoqliklar. Chortoq tumani haqida" />
+  <meta name="twitter:description" content="Chortoq tumani: tarix, mineral suvlar, bog‘dorchilik, ziyoratgohlar va xarita." />
+  <meta name="twitter:image" content="https://chortoqliklar.uz/assets/chortoq-sanatorium.png" />
+  <title>Chortoqliklar. Chortoq tumani</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,22 +28,70 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Place",
-    "name": "Chortoq tumani",
-    "description": "Namangan viloyatidagi tarixiy, agrar va sog‘lomlashtirish salohiyatiga ega tuman.",
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.0692,
-      "longitude": 71.8237
-    },
-    "containedInPlace": {
-      "@type": "AdministrativeArea",
-      "name": "Namangan viloyati"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Chortoqliklar.uz",
+        "url": "https://chortoqliklar.uz/",
+        "inLanguage": "uz"
+      },
+      {
+        "@type": "Place",
+        "name": "Chortoq tumani",
+        "url": "https://chortoqliklar.uz/",
+        "description": "Namangan viloyatidagi tarixiy, agrar va sog‘lomlashtirish salohiyatiga ega tuman.",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.0692,
+          "longitude": 71.8237
+        },
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Namangan viloyati"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Chortoq tumani qachon tashkil topgan va markazi qayer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chortoq tumani 1950-yil 15-aprelda tashkil etilgan. Tuman markazi Chortoq shahri bo‘lib, unga 1976-yilda shahar maqomi berilgan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Chortoq mineral suvi qayerdan chiqadi va tarkibi qanday?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chortoqsoy vodiysida 1947-1948-yillarda topilgan mineral suv ikki asosiy qatlamdan olinadi: 507 m chuqurlikdan +32..+34 darajali ichimlik mineral suvi va 1200-1600 m chuqurlikdan +44..+55 darajali yod-bromli termal suv."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sulton Uvays Qaroniy ziyoratgohi qayerda joylashgan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sulton Uvays Qaroniy majmuasi Chortoq tumani markazidan qariyb 35 km uzoqlikdagi Baliqli ko‘l qishlog‘ida joylashgan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Chortoq tumani iqtisodiyoti nimaga ixtisoslashgan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tuman iqtisodiyoti intensiv bog‘dorchilik (shaftoli, gilos, olcha, uzum), Chortoq Mineral Water kabi sanoat korxonalari hamda sanatoriy va ziyorat turizmiga asoslangan."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
-<body>
+<body data-dev-popup="auto">
   <a class="skip-link" href="#main">Asosiy qismga o‘tish</a>
 
   <header class="site-header" id="top">
@@ -57,12 +114,14 @@
       </button>
 
       <nav class="site-nav" id="site-nav" aria-label="Asosiy navigatsiya">
-        <a href="#haqida">Tuman haqida</a>
-        <a href="#salohiyat">Salohiyat</a>
-        <a href="#tarix">Tarix</a>
-        <a href="#maskanlar">Maskanlar</a>
-        <a href="#xarita">Xarita</a>
-        <a class="nav-cta" href="#hamjamiyat">Hamjamiyat</a>
+        <a href="#about">Tuman haqida</a>
+        <a href="#potential">Salohiyat</a>
+        <a href="#history">Tarix</a>
+        <a href="#places">Maskanlar</a>
+        <a href="#blog">Blog</a>
+        <a href="#map">Xarita</a>
+        <a href="#satellite">Sun’iy yo‘ldosh</a>
+        <a class="nav-cta" href="#community">Hamjamiyat</a>
       </nav>
     </div>
   </header>
@@ -72,14 +131,14 @@
       <div class="hero-noise" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <div class="eyebrow"><span></span> Namangan viloyatining betakror go‘shasi</div>
-          <h1 id="hero-title">Chortoq — <em>shifo</em>, mehnat va bunyodkorlik maskani</h1>
+          <div class="eyebrow"><span></span> Namangan viloyati · Farg‘ona vodiysi</div>
+          <h1 id="hero-title">Chortoq: <em>shifo</em>, mehnat va bunyodkorlik maskani</h1>
           <p class="hero-lead">
-            Chortoqsoy vodiysi, shifobaxsh mineral suvlari, serhosil bog‘lari va mehnatkash insonlari bilan tanilgan tuman haqida bir sahifada eng muhim ma’lumotlar.
+            Chortoqsoy vodiysi, mineral suvlari, bog‘lari va aholisi bilan tanilgan tuman haqida asosiy ma’lumotlar.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#haqida">Chortoqni kashf eting</a>
-            <a class="button button-ghost" href="#xarita">
+            <a class="button button-primary" href="#about">Tuman haqida</a>
+            <a class="button button-ghost" href="#map">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.3 7-12A7 7 0 1 0 5 9c0 6.7 7 12 7 12Zm0-9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>
               Xaritada ko‘rish
             </a>
@@ -88,7 +147,7 @@
             <div class="avatar-stack" aria-hidden="true">
               <span>Ch</span><span>Nt</span><span>Uz</span>
             </div>
-            <p><strong>Chortoqliklar uchun,</strong> Chortoqni sevganlar tomonidan yaratilgan.</p>
+            <p><strong>Chortoq tumani</strong> haqida ochiq ma’lumotlar to‘plami.</p>
           </div>
         </div>
 
@@ -139,18 +198,21 @@
       </div>
     </section>
 
-    <section class="section about" id="haqida">
+    <section class="section about" id="about">
       <div class="container split-grid">
         <div class="section-heading reveal">
           <div class="eyebrow"><span></span> Tuman haqida</div>
-          <h2>Farg‘ona vodiysining shimoliy-sharqidagi sermazmun hudud</h2>
+          <h2>Farg‘ona vodiysining shimoliy-sharqidagi tuman</h2>
         </div>
         <div class="about-copy reveal delay-1">
           <p class="lead-copy">
-            Chortoq tumani Namangan viloyatining shimoliy-sharqida joylashgan. Tuman markazi — Chortoq shahri. Hudud g‘arbda Yangiqo‘rg‘on, janub va janubi-sharqda Uychi tumani, shimol va sharqda esa Qirg‘iziston Respublikasi bilan chegaradosh.
+            Chortoq tumani Namangan viloyatining shimoliy-sharqida, Chatqol tizmasining janubiy etaklarida joylashgan. Tuman markazi Chortoq shahri. Hudud g‘arbda Yangiqo‘rg‘on, janub va janubi-sharqda Uychi tumani, shimol va sharqda Qirg‘iziston Respublikasi bilan chegaradosh.
           </p>
           <p>
-            “Chortoq” nomi ko‘pincha “to‘rt tepalik” ma’nosi bilan izohlanadi. Tuman tabiiy iqlimi, tog‘ oldi manzaralari, Chortoqsoy vodiysi va mineral suv manbalari bilan ajralib turadi. Bu imkoniyatlar qishloq xo‘jaligi, sog‘lomlashtirish va ichki turizmning bir-birini to‘ldirib rivojlanishiga zamin yaratadi.
+            "Chortoq" nomi forscha "chor" (to‘rt) va turkiy "toq" (tepalik) so‘zlaridan kelib chiqqan bo‘lib, shahardagi qadimiy to‘rtta mudofaa tepaligiga ishora qiladi. Tarixiy manbalarda Chortoq milodiy II asrlardan tilga olinadi, 1976-yilda esa shahar maqomini olgan.
+          </p>
+          <p>
+            Hududdan Chortoqsoy va Namangansoy (Pochchaotasoy) oqib o‘tadi. Ma’muriy tarkibiga Chortoq shahri, Qoroskon shaharchasi hamda Alixon, Bog‘iston, Gulshan, Muchum, Oyqiron, Peshqo‘rg‘on, Saroy, Hazratishoh kabi qishloq hududlari kiradi.
           </p>
         </div>
       </div>
@@ -185,12 +247,12 @@
       </div>
     </section>
 
-    <section class="section potential" id="salohiyat">
+    <section class="section potential" id="potential">
       <div class="container">
         <div class="center-heading reveal">
           <div class="eyebrow centered"><span></span> Chortoq salohiyati <span></span></div>
-          <h2>Hududni ajratib turadigan to‘rtta kuch</h2>
-          <p>Tabiat, salomatlik, dehqonchilik va inson kapitali Chortoq rivojining asosiy tayanchlaridir.</p>
+          <h2>Tuman iqtisodiyoti va hayotining to‘rtta yo‘nalishi</h2>
+          <p>Mineral suvlar, bog‘dorchilik, tabiat va mahalliy tadbirkorlik.</p>
         </div>
 
         <div class="feature-grid">
@@ -233,13 +295,13 @@
       </div>
     </section>
 
-    <section class="section history" id="tarix">
+    <section class="section history" id="history">
       <div class="container history-grid">
         <div class="history-intro reveal">
           <div class="eyebrow light"><span></span> Muhim bosqichlar</div>
-          <h2>Chortoqning kechasi, buguni va ertasi</h2>
-          <p>Hudud tarixi tabiiy boyliklar, dehqonchilik an’analari va zamonaviy infratuzilma bilan chambarchas bog‘liq.</p>
-          <a class="text-link" href="#maskanlar">Mashhur maskanlarni ko‘rish <span>→</span></a>
+          <h2>Chortoq tarixi va buguni</h2>
+          <p>Hudud tarixi tabiiy boyliklar, dehqonchilik an’analari va zamonaviy infratuzilma bilan bog‘liq.</p>
+          <a class="text-link" href="#places">Mashhur maskanlarni ko‘rish <span>→</span></a>
         </div>
 
         <div class="timeline">
@@ -267,22 +329,22 @@
           <article class="timeline-item reveal delay-3">
             <span class="timeline-year">Bugun</span>
             <div>
-              <h3>Turizm va mahalliy brendlar davri</h3>
-              <p>Chortoq nomi salomatlik, mineral suv, agro-mahsulot va yashil turizm bilan tobora kuchliroq bog‘lanmoqda.</p>
+              <h3>Turizm va mahalliy ishlab chiqarish</h3>
+              <p>Tumanda sanatoriy xizmatlari, mineral suv ishlab chiqarish va qishloq xo‘jaligi eksporti kengaymoqda.</p>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section places" id="maskanlar">
+    <section class="section places" id="places">
       <div class="container">
         <div class="section-heading inline-heading reveal">
           <div>
             <div class="eyebrow"><span></span> Ko‘rishga arziydigan yo‘nalishlar</div>
-            <h2>Chortoqni his qiladigan maskanlar</h2>
+            <h2>Chortoqda borib ko‘rish mumkin bo‘lgan joylar</h2>
           </div>
-          <p>Bu ro‘yxat sayohatni boshlash uchun qisqa yo‘l-yo‘riq. Mahalliy xizmatlar va ish vaqtlarini safardan oldin tekshirish tavsiya etiladi.</p>
+          <p>Sayohatni boshlash uchun qisqa yo‘l-yo‘riq. Xizmatlar va ish vaqtlarini safardan oldin tekshiring.</p>
         </div>
 
         <article class="sanatorium-feature reveal">
@@ -291,7 +353,7 @@
           </div>
           <div class="sanatorium-copy">
             <span class="place-tag">Sog‘lomlashtirish</span>
-            <h3>“Chortoq” sanatoriysi</h3>
+            <h3>"Chortoq" sanatoriysi</h3>
             <p>Chortoqsoy vodiysida, Namangan shahridan qariyb 25 km masofada va dengiz sathidan 650 metr balandlikda joylashgan balneologik-iqlimiy kurort.</p>
             <ul class="check-list">
               <li>Mineral suv va balneologik muolajalar</li>
@@ -310,7 +372,7 @@
             <div class="place-content">
               <span class="place-tag">Tabiat</span>
               <h3>Chortoqsoy vodiysi</h3>
-              <p>Hududning tabiiy qiyofasi va sog‘lomlashtirish muhitini shakllantirgan yashil vodiy.</p>
+              <p>Chortoq tumani markazi va sanatoriy hududidan o‘tuvchi soy vodiysi.</p>
             </div>
           </article>
 
@@ -339,7 +401,92 @@
       </div>
     </section>
 
-    <section class="section map-section" id="xarita">
+    <section class="section blog-section" id="blog">
+      <div class="container">
+        <div class="section-heading inline-heading reveal">
+          <div>
+            <div class="eyebrow"><span></span> Chortoq blogi</div>
+            <h2>Chortoq haqida batafsil maqolalar</h2>
+          </div>
+          <p>
+            Tuman tarixi, mineral suvlar tarkibi, ziyoratgohlar va iqtisodiyot bo‘yicha alohida sahifalarga bo‘lingan tahliliy maqolalar.
+            <a class="text-link inline-blog-link" href="blog/index.html">Barcha maqolalar <span>→</span></a>
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal">
+            <div class="blog-meta">
+              <span class="place-tag">Tarix</span>
+              <span>4 daqiqa o‘qish</span>
+            </div>
+            <h3><a href="blog/chortoq-tarixi.html">Chortoq tarixi va nomi: milodiy II asrdan 1976-yilgacha</a></h3>
+            <p>So‘g‘d davri ildizlari, "to‘rt tepalik" atamasining kelib chiqishi, 1950-yilgi tuman tashkil topishi va ma’muriy hududlar.</p>
+            <a class="blog-read" href="blog/chortoq-tarixi.html">Maqolani o‘qish <span>→</span></a>
+          </article>
+
+          <article class="blog-card reveal delay-1">
+            <div class="blog-meta">
+              <span class="place-tag">Balneologiya</span>
+              <span>5 daqiqa o‘qish</span>
+            </div>
+            <h3><a href="blog/chortoq-mineral-suvi-va-sanatoriy.html">Chortoq sanatoriysi va mineral suvi: quduqlar va tarkib</a></h3>
+            <p>1947-yilgi geologik kashfiyot, 507 m va 1600 m chuqurlikdagi suvlar farqi, yod-brom tarkibi va davolash yo‘nalishlari.</p>
+            <a class="blog-read" href="blog/chortoq-mineral-suvi-va-sanatoriy.html">Maqolani o‘qish <span>→</span></a>
+          </article>
+
+          <article class="blog-card reveal delay-2">
+            <div class="blog-meta">
+              <span class="place-tag">Ziyorat turizmi</span>
+              <span>4 daqiqa o‘qish</span>
+            </div>
+            <h3><a href="blog/sulton-uvays-qaroniy-baliqli-kol.html">Sulton Uvays Qaroniy va Baliqli ko‘l ziyoratgohi</a></h3>
+            <p>Tuman markazidan 35 km masofadagi ziyorat majmuasi, Bibi Naima ona maqbarasi, 1400 o‘rinli masjid va sayyohlik sharoitlari.</p>
+            <a class="blog-read" href="blog/sulton-uvays-qaroniy-baliqli-kol.html">Maqolani o‘qish <span>→</span></a>
+          </article>
+
+          <article class="blog-card reveal delay-3">
+            <div class="blog-meta">
+              <span class="place-tag">Iqtisodiyot</span>
+              <span>4 daqiqa o‘qish</span>
+            </div>
+            <h3><a href="blog/chortoq-iqtisodiyoti-va-bogdorchilik.html">Chortoq iqtisodiyoti: intensiv bog‘lar va eksport</a></h3>
+            <p>Chortoq shaftolisi va uzumchiligi, Chortoq Mineral Water zavodining 15 dan ortiq davlatga eksporti va sanoat tarmoqlari.</p>
+            <a class="blog-read" href="blog/chortoq-iqtisodiyoti-va-bogdorchilik.html">Maqolani o‘qish <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="center-heading reveal">
+          <div class="eyebrow centered"><span></span> Ko‘p so‘raladigan savollar <span></span></div>
+          <h2>Chortoq bo‘yicha qisqa javoblar</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item reveal" open>
+            <summary>Chortoq tumani qachon tashkil topgan va markazi qayer?</summary>
+            <p>Chortoq tumani 1950-yil 15-aprelda tashkil etilgan. Tuman markazi Chortoq shahri bo‘lib, unga 1976-yilda shahar maqomi berilgan.</p>
+          </details>
+          <details class="faq-item reveal delay-1">
+            <summary>Chortoq mineral suvi qayerdan chiqadi va tarkibi qanday?</summary>
+            <p>Chortoqsoy vodiysida 1947-1948-yillarda neft qidirish vaqtida topilgan. 507 m chuqurlikdan +32..+34 °C ichimlik mineral suvi, 1200-1600 m chuqurlikdan esa +44..+55 °C yod-bromli termal suv olinadi.</p>
+          </details>
+          <details class="faq-item reveal delay-2">
+            <summary>Sulton Uvays Qaroniy ziyoratgohi qayerda joylashgan?</summary>
+            <p>Ziyoratgoh Chortoq tumani markazidan qariyb 35 km uzoqlikdagi Baliqli ko‘l qishlog‘ida joylashgan.</p>
+          </details>
+          <details class="faq-item reveal delay-3">
+            <summary>Chortoq tumani iqtisodiyoti nimaga ixtisoslashgan?</summary>
+            <p>Hudud iqtisodiyoti intensiv bog‘dorchilik (shaftoli, gilos, olcha, uzum), Chortoq Mineral Water kabi sanoat korxonalari hamda sanatoriy va ziyorat turizmiga asoslangan.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section map-section" id="map">
       <div class="container map-grid">
         <div class="map-copy reveal">
           <div class="eyebrow"><span></span> Joylashuv</div>
@@ -364,12 +511,65 @@
       </div>
     </section>
 
-    <section class="section community" id="hamjamiyat">
+    <section class="section satellite-section" id="satellite">
+      <div class="container">
+        <div class="section-heading inline-heading reveal">
+          <div>
+            <div class="eyebrow"><span></span> Sun’iy yo‘ldosh arxivi</div>
+            <h2>Chortoqning yillar bo‘yicha sun’iy yo‘ldosh ko‘rinishi</h2>
+          </div>
+          <p>
+            2014-yildan 2026-yilgacha bo‘lgan tarixiy sun’iy yo‘ldosh tasvirlarini sahifadan chiqmasdan solishtiring. 1984-yildan boshlangan 3D tasvirlar uchun Google Earth havolalari ham berilgan.
+          </p>
+        </div>
+
+        <div class="satellite-shell reveal delay-1">
+          <div class="satellite-toolbar">
+            <div class="earth-years" role="group" aria-label="Yilni tanlang">
+              <button class="earth-year-btn" type="button" data-sat-year="2014" aria-pressed="false">2014</button>
+              <button class="earth-year-btn" type="button" data-sat-year="2016" aria-pressed="false">2016</button>
+              <button class="earth-year-btn" type="button" data-sat-year="2018" aria-pressed="false">2018</button>
+              <button class="earth-year-btn" type="button" data-sat-year="2020" aria-pressed="false">2020</button>
+              <button class="earth-year-btn" type="button" data-sat-year="2022" aria-pressed="false">2022</button>
+              <button class="earth-year-btn" type="button" data-sat-year="2024" aria-pressed="false">2024</button>
+              <button class="earth-year-btn active" type="button" data-sat-year="2026" aria-pressed="true">2026</button>
+            </div>
+
+            <div class="satellite-tools">
+              <button class="sat-tool-btn" type="button" id="sat-autoplay" aria-pressed="false">Avto-ko‘rish</button>
+              <button class="sat-tool-btn active" type="button" data-sat-zoom="14" aria-pressed="true">Shahar</button>
+              <button class="sat-tool-btn" type="button" data-sat-zoom="13" aria-pressed="false">Tuman</button>
+            </div>
+          </div>
+
+          <div class="satellite-viewport" id="satellite-viewport">
+            <div class="satellite-grid" id="satellite-grid" aria-live="polite"></div>
+            <div class="satellite-badge">
+              <strong id="sat-badge-year">2026 · 2026-10-29</strong>
+              <span>41.0692° N, 71.8237° E · Esri Wayback</span>
+            </div>
+          </div>
+
+          <div class="satellite-footer">
+            <div class="satellite-note">
+              <strong id="sat-year-title">2026-yil: Zamonaviy sun’iy yo‘ldosh tasviri</strong>
+              <p id="sat-year-desc">Chortoq shahri, Chortoqsoy vodiysi, sanatoriy hududi va yangilangan turar-joy massivlari.</p>
+            </div>
+            <div class="earth-actions">
+              <a class="button button-primary" href="https://earth.google.com/web/@41.0692,71.8237,520a,14000d,35y,0h,0t,0r" target="_blank" rel="noopener">Google Earth’da ochish</a>
+              <a class="button button-ghost" id="sat-timelapse-link" href="https://earthengine.google.com/timelapse#v=41.0692,71.8237,11.5,latLng&t=1.00" target="_blank" rel="noopener">Google Timelapse (1984-2022+)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section community" id="community">
       <div class="container community-card reveal">
         <div>
           <div class="eyebrow light"><span></span> Chortoqliklar hamjamiyati</div>
-          <h2>Chortoq haqidagi foydali ma’lumotlarni birga boyitamiz</h2>
-          <p>Mahalla tarixi, qadimiy surat, mahalliy tadbirkor, sayyohlik manzili yoki Chortoq bilan bog‘liq qiziqarli hikoyangiz bormi? Loyihaga qo‘shiling.</p>
+          <h2>Chortoq haqidagi ma’lumotlarni to‘ldiring</h2>
+          <p>Mahalla tarixi, eski surat, mahalliy tadbirkor yoki sayyohlik manzili haqida ma’lumotingiz bo‘lsa, loyihaga qo‘shiling.</p>
         </div>
         <form class="community-form" id="community-form" novalidate>
           <label for="email">Yangiliklar va loyiha e’lonlari</label>
@@ -392,15 +592,17 @@
           </span>
           <span><strong>Chortoqliklar</strong><small>Chortoq haqida ochiq platforma</small></span>
         </a>
-        <p>Chortoq tumani tarixi, buguni va salohiyatini zamonaviy raqamli formatda tanishtiruvchi loyiha.</p>
+        <p>Chortoq tumani haqida ochiq ma’lumotlar sahifasi.</p>
       </div>
 
       <div class="footer-links">
         <h3>Bo‘limlar</h3>
-        <a href="#haqida">Tuman haqida</a>
-        <a href="#salohiyat">Salohiyat</a>
-        <a href="#tarix">Tarix</a>
-        <a href="#maskanlar">Maskanlar</a>
+        <a href="#about">Tuman haqida</a>
+        <a href="#potential">Salohiyat</a>
+        <a href="#history">Tarix</a>
+        <a href="#places">Maskanlar</a>
+        <a href="#satellite">Sun’iy yo‘ldosh</a>
+        <a href="blog/index.html">Blog maqolalari</a>
       </div>
 
       <div class="footer-links">
@@ -418,9 +620,41 @@
     </div>
     <div class="container footer-bottom">
       <p>© <span id="current-year"></span> Chortoqliklar. Barcha huquqlar himoyalangan.</p>
-      <p>Foto: Shohi kubro / Wikimedia Commons, CC BY-SA 4.0.</p>
+      <p>
+        Foto: Shohi kubro / Wikimedia Commons, CC BY-SA 4.0 ·
+        <button class="dev-trigger" type="button" id="open-dev-modal">Dasturchi haqida</button>
+      </p>
     </div>
   </footer>
+
+  <div class="dev-modal" id="dev-modal" role="dialog" aria-modal="true" aria-labelledby="dev-modal-title" hidden>
+    <div class="dev-modal-backdrop" data-close-dev-modal></div>
+    <div class="dev-modal-card" role="document">
+      <button class="dev-modal-close" type="button" aria-label="Oynani yopish" data-close-dev-modal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="dev-modal-head">
+        <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/74096482?v=4" alt="Xamidullo Xudoyberdiyev" width="64" height="64" />
+        <div>
+          <span class="dev-badge">Dasturchi haqida</span>
+          <h2 id="dev-modal-title">Xamidullo Xudoyberdiyev</h2>
+          <p class="dev-role">Senior Software Engineer · Ucell</p>
+        </div>
+      </div>
+      <p class="dev-bio">
+        Backend va full-stack tizimlar muhandisi. Telekom mikroservislari, ma’lumotlar bazasi optimizatsiyasi va web platformalar quraman. <strong>chortoqliklar.uz</strong> loyihasi muallifi.
+      </p>
+      <div class="dev-links">
+        <a class="dev-link dev-link-primary" href="https://xamidullo.uz" target="_blank" rel="noopener">xamidullo.uz</a>
+        <a class="dev-link" href="https://t.me/Xamidullo_Xudoyberdiyev" target="_blank" rel="noopener">Telegram</a>
+        <a class="dev-link" href="https://github.com/xam1dullo" target="_blank" rel="noopener">GitHub</a>
+        <a class="dev-link" href="https://www.linkedin.com/in/xam1dullo/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="dev-modal-footer">
+        <button class="button button-primary dev-dismiss" type="button" data-close-dev-modal>Saytga o‘tish</button>
+      </div>
+    </div>
+  </div>
 
   <button class="back-to-top" type="button" aria-label="Yuqoriga qaytish">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>

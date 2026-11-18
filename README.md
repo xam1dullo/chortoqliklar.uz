@@ -1,42 +1,33 @@
-# Chortoqliklar.uz — single-page website
+# Chortoqliklar.uz
 
-Chortoq tumani haqida ma’lumot beruvchi, mobil qurilmalarga mos va build jarayonisiz ishlaydigan statik landing page.
+Static website about Chortoq district (Namangan region, Uzbekistan) with no build step required.
 
-## Fayllar
+## Files
 
-- `index.html` — sahifa tuzilmasi va SEO meta-ma’lumotlar
-- `styles.css` — responsive dizayn va animatsiyalar
-- `script.js` — mobil menyu, scroll animatsiyasi, raqamlar animatsiyasi va demo forma
-- `assets/chortoq-sanatorium.png` — Wikimedia Commons rasmi
-- `assets/favicon.svg` — sayt belgisi
+- `index.html`: main landing page, structured data (JSON-LD), FAQ, map, satellite archive, and developer modal
+- `styles.css`: responsive layout, design tokens, modal, and blog styles
+- `script.js`: navigation, scroll reveals, counters, satellite Wayback viewer, developer modal, and demo form
+- `blog/`: standalone article pages and blog index for SEO
+- `sitemap.xml` and `robots.txt`: search engine indexing configuration
+- `assets/chortoq-sanatorium.png`: Wikimedia Commons photo
+- `assets/favicon.svg`: site icon
 
-## Ishga tushirish
+## Local development
 
-Eng sodda usul: `index.html` faylini brauzerda oching.
-
-Mahalliy server bilan:
+Open `index.html` directly in a browser, or run a local server:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-So‘ng brauzerda `http://localhost:8080` manzilini oching.
+Then open `http://localhost:8080`.
 
-## Hostingga joylash
+## Deployment
 
-Barcha fayllarni domenning `public_html` papkasiga yuklash kifoya. `index.html`, `styles.css`, `script.js` va `assets` papkasi bir xil darajada turishi kerak.
+Upload all files and folders (`index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml`, `assets/`, `blog/`) to `public_html`.
 
-## Muhim eslatmalar
+## Notes
 
-- Hozirgi email forma demo rejimida va ma’lumotni faqat brauzer `localStorage`iga saqlaydi. Real ishlashi uchun backend/API ulash kerak.
-- OpenStreetMap xaritasi va Google Fonts internetga ulanishni talab qiladi.
-- Ma’lumotlar 2026-yil iyul holatiga ochiq manbalar asosida tayyorlangan.
-- Foto: Shohi kubro / Wikimedia Commons, CC BY-SA 4.0.
-
-## Asosiy manbalar
-
-- Chortoq tumani hokimligi: https://gov.uz/oz/chortoq
-- O‘zbekiston statistika agentligi: https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_246.pdf
-- Chortoq sanatoriysi: https://www.chortoqsan.uz/
-- Uzbekistan Travel: https://uzbekistan.travel/uz/o/ozbekistonning-shifo-maskanlari/
-- Wikimedia Commons foto: https://commons.wikimedia.org/wiki/File:Chortoq_sanatoriyasi_bino.png
+- All code, file paths, section IDs, and technical resources are in English; user-facing content is in Uzbek.
+- Satellite imagery uses Esri World Imagery Wayback WMTS tiles (`2014` to `2026`).
+- OpenStreetMap, Esri Wayback tiles, and Google Fonts require an internet connection.
